@@ -1,0 +1,150 @@
+body, html {
+    height: calc(100%-2em);
+    margin: 0;
+    font-family: quicksand;
+
+}
+body { 
+    height: 100vh;
+    background-color: #175B9E; 
+    background-image: linear-gradient(135deg, #175B9E, #15DCDC); 
+    background-image: -webkit-linear-gradient(-45deg, #175B9E, #15DCDC); 
+    background-image: -moz-linear-gradient(-45deg, #175B9E, #15DCDC); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 700;
+  }
+
+
+.page-wrap {
+    left: 10%;
+    top: 13%;
+    right: 5%;
+    height:72%;
+    width: 85%;
+    position: relative;
+    overflow: auto;
+}
+
+.container{
+    position: absolute;
+
+}
+
+
+
+
+.footer-menu {
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    
+
+    /*display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bottom-menu-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-menu-bar li a {
+    padding: .25rem 1rem;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.bottom-menu-bar li {
+    position: relative;
+}
+
+.bottom-menu-bar li .sub-menu {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left:0;
+    background-color: white;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.bottom-menu-bar li a .sub-menu {
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+.bottom-menu-bar .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+.rectangle {
+    position: fixed;
+    left: 5%;
+    top: 10%;
+    right:5%;
+    bottom:10%;
+    padding:0;
+    background-color: white;
+}    
+
+.pagination {
+    display: inline-block;
+}
+
+a.page-numbers, a.next.page-numbers, a.prev.page-numbers {
+
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    margin: 0 2px 0 0;
+
+    border: 1px solid #eee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    line-height: 1;
+
+    text-decoration: none;
+    
+    border-radius: 2px;
+
+    font-weight: 600;
+    color: white;
+    background: #175B9E;
+
+}
+.page-numbers.current{
+    
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    margin: 0 2px 0 0;
+
+    border: 1px solid #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 1;
+
+    text-decoration: none;
+    
+    border-radius: 2px;
+
+    font-weight: 600;
+    color: black;
+    background: white;
+}
+a.page-numbers:hover {
+    color:black;
+    background-color: white;
+}
