@@ -15,7 +15,7 @@
 
      </div>
 </section>
-<p>Copyright (C) 2020 Notion Corporation, a member of Easytime Group, and Chris Yang. The theme of this website is
+<p>Copyright (C) 2020 Chris Yang. The theme of this website is
     licensed under the terms of the GNU GPL version 3 or later.</p>
 </body>
 </html>
