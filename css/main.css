@@ -41,7 +41,7 @@ h1 {
 .footer-menu {
     position: fixed;
     width:100%;
-    bottom: 0;
+    bottom: 30px;
     
 
     /*display: flex;
@@ -147,4 +147,18 @@ a.page-numbers, a.next.page-numbers, a.prev.page-numbers {
 a.page-numbers:hover {
     color:black;
     background-color: white;
+}
+
+section.copyright-wrap {
+    color: white;
+    position: absolute;
+    left:1 ;
+    bottom: 0;
+}
+section.copyright-wrap p {
+    color: white;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    font-size: small;
 }
