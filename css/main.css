@@ -41,7 +41,7 @@ h1 {
 .footer-menu {
     position: fixed;
     width:100%;
-    bottom: 30px;
+    bottom: 0.85rem;
     
 
     /*display: flex;
