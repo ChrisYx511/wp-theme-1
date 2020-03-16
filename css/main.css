@@ -12,6 +12,13 @@ body {
     background-image: -moz-linear-gradient(-45deg, #175B9E, #15DCDC); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    /* Alternate Color Scheme*/
+    /*background: rgb(255,64,0);
+    background: -moz-linear-gradient(145deg, rgba(255,64,0,1) 0%, rgba(242,224,130,1) 100%);
+    background: -webkit-linear-gradient(145deg, rgba(255,64,0,1) 0%, rgba(242,224,130,1) 100%);
+    background: linear-gradient(145deg, rgba(255,64,0,1) 0%, rgba(242,224,130,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4000",endColorstr="#f2e082",GradientType=1);*/
 }
 
 h1 {
