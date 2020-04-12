@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-<div class="rectangle"></div>
+<div class="rectangle">
 <section class="page-wrap">
     <div class='container'>
         <?php if(has_post_thumbnail()):?>
@@ -14,6 +14,6 @@
             <?php wp_link_pages();?>
      </div>
 </section>
-
+</div>
 
 <?php get_footer();?>

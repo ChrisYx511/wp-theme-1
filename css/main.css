@@ -1,7 +1,7 @@
 body, html {
     height: calc(100%-2em);
     margin: 0;
-    font-family: quicksand;
+    font-family: Raleway;
 
 }
 body { 
@@ -28,10 +28,10 @@ h1 {
 
 
 .page-wrap {
-    left: 10%;
-    top: 13%;
+    left: 9%;
+    top: 9%;
     right: 5%;
-    height:72%;
+    height:70%;
     width: 85%;
     position: relative;
     overflow: auto;
@@ -93,14 +93,35 @@ h1 {
     display: block;
 }
 .rectangle {
+    border-radius: 5px;
     position: fixed;
     left: 5%;
-    top: 10%;
+    top: 12%;
     right:5%;
     bottom:10%;
     padding:0;
     background-color: white;
 }    
+
+@media only screen and (max-width:768px) {
+    .rectangle{ 
+        border-radius: 0px;
+        position: fixed;
+        left: 0;
+        top: 8%;
+        right:0%;
+        bottom:7%;
+        padding:0;
+        background-color: white;
+    }
+    h1 {
+        font-size:4em;
+    }
+
+    .bottom-menu-bar {
+        display:none;
+    }
+}
 
 .pagination {
     display: inline-block;
@@ -168,4 +189,52 @@ section.copyright-wrap p {
     bottom:0;
     left: 0;
     font-size: small;
+}
+
+div.custom-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+div.custom-logo img.custom-logo{
+    position: inherit;
+}
+@media only screen and (max-width: 767px) {
+    section.copyright-wrap p {
+        color: white;
+        position: fixed;
+        bottom:0;
+        left: 0;
+        font-size: 0.65em;
+    }
+    div.custom-logo {
+        padding-top: 0.5rem;
+        display: block;
+        position: absolute;
+        left: 0.15rem;
+    }
+}
+/* For mobile devices with limited height*/
+@media only screen and (max-height: 640px) {
+    section.copyright-wrap p {
+        color: white;
+        position: fixed;
+        bottom:0;
+        left: 0;
+        font-size: 0.5em;
+    }
+    .rectangle{ 
+        border-radius: 0px;
+        position: fixed;
+        left: 0;
+        top: 9%;
+        right:0%;
+        bottom:8%;
+        padding:0;
+        background-color: white;
+    }
+    h1 {
+        font-size:4em;
+    }
 }

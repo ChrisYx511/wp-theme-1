@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-<div class="rectangle"></div>
+<div class="rectangle">
 <section class="page-wrap">
     <div class='container'>
                  <h1>Search Results for "<?php echo get_search_query();?>"</h1>
@@ -30,6 +30,6 @@
                 </div>
      </div>
 </section>
-
+</div>
 
 <?php get_footer();?>

@@ -18,7 +18,7 @@
 
 <section class=copyright-wrap>
     <p>Copyright (C) 2020 Chris Yang. The theme of this website is
-        licensed under the terms of the GNU GPL version 3 or later.  See<a href=legal> Legal Stuff <a>for more information</p>
+        licensed under the terms of the GNU GPL version 3 or later.  See<a href=/legal> Legal Stuff <a>for more information</p>
 </section>
 
 </body>

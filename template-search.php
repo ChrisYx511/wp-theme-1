@@ -7,7 +7,7 @@ Template Name: Search
 <?php get_header();?>
 
 
-<div class="rectangle"></div>
+<div class="rectangle">
 <section class="page-wrap">
     <div class='container'>
 
@@ -18,6 +18,6 @@ Template Name: Search
          <?php get_search_form();?>
      </div>
 </section>
-
+</div>
 
 <?php get_footer();?>

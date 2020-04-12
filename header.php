@@ -6,7 +6,9 @@
     <title><?php echo get_bloginfo('name', 'raw')?></title>
 
     <?php wp_head();?>
-
+    <div class=custom-logo> 
+        <?php the_custom_logo()?>
+    </div>
 </head>
 <body>
     
