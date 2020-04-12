@@ -33,9 +33,8 @@ h1 {
     right: 5%;
     bottom: 9%;
     height: 90%;
-
-    
-    position: relative;
+    scroll-behavior: auto;
+    position: absolute;
     overflow: auto;
 }
 
