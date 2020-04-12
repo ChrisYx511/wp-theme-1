@@ -49,7 +49,7 @@ add_image_size('blog-large', 300, 200, true);
 function themename_custom_logo_setup() {
     $defaults = array(
     'height'      => 60,
-    'width'       => 400,
+    'width'       => 200,
     'flex-height' => false,
     'flex-width'  => true,
     'header-text' => array( 'site-title', 'site-description' ),
