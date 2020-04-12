@@ -31,8 +31,10 @@ h1 {
     left: 9%;
     top: 9%;
     right: 5%;
-    height:70%;
-    width: 85%;
+    bottom: 9%;
+    height: 90%;
+
+    
     position: relative;
     overflow: auto;
 }
