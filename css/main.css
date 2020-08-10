@@ -11,7 +11,7 @@ body {
     background-image: -webkit-linear-gradient(-45deg, #175B9E, #15DCDC); 
     background-image: -moz-linear-gradient(-45deg, #175B9E, #15DCDC); 
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     /* Alternate Color Scheme*/
     /*
@@ -195,15 +195,27 @@ section.copyright-wrap p {
     font-size: small;
 }
 
-div.custom-logo {
+div.custom {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1.75rem;
 }
-div.custom-logo img.custom-logo{
-    position: inherit;
+div.custom-logo, div.custom-title, div.logo-line {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
 }
+
+div.custom-title{
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+}
+div.title-text {
+    text-align: left;
+}
+
 @media only screen and (max-width: 767px) {
     section.copyright-wrap p {
         color: white;
@@ -212,7 +224,11 @@ div.custom-logo img.custom-logo{
         left: 0;
         font-size: 0.65em;
     }
-    div.custom-logo {
+    div.custom-title, div.logo-line {
+        display:none;
+        visibility: hidden;
+    }
+    div.custom {
         padding-top: 0.5rem;
         display: block;
         position: absolute;
